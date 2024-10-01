@@ -3,6 +3,7 @@ import Features from './components/Features'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Pricing from './components/Pricing'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Features />
       <Pricing />
       <FAQ />
+      <Testimonials />
     </main>
   )
 }
