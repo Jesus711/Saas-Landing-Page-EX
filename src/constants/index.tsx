@@ -1,23 +1,28 @@
+import { Circle, Detail1, Detail2, Detail3, Detail4, Docs, Feature1, Feature2, Hexagon, MagicTouch, Plan1, Plan2, Plan3, Triangle } from "../assets";
+import { AfterPay, Amplitude, Drips, Maze, Sonos } from "../assets/logos";
+import { Discord, Instagram, Threads, X } from "../assets/socials";
+import { Testimonial1, Testimonial2, Testimonial3, Testimonial4, Testimonial5, Testimonial6 } from "../assets/testimonials";
+
 export const features = [
     {
       id: '0',
-      icon: '/images/feature-1.png',
+      icon: Feature1,
       caption: 'Easy integration',
       title: 'Work smarter not harder',
       text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
       button: {
-        icon: '/images/magictouch.svg',
+        icon: MagicTouch,
         title: 'Watch the demo',
       },
     },
     {
       id: '1',
-      icon: '/images/feature-2.png',
+      icon: Feature2,
       caption: 'Secure & trustworthy',
       title: 'Sleep easy, we got your back',
       text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
       button: {
-        icon: '/images/docs.svg',
+        icon: Docs,
         title: 'Read the docs',
       },
     },
@@ -26,22 +31,22 @@ export const features = [
   export const details = [
     {
       id: '0',
-      icon: '/images/detail-1.png',
+      icon: Detail1,
       title: 'AI automated video editing',
     },
     {
       id: '1',
-      icon: '/images/detail-2.png',
+      icon: Detail2,
       title: 'Collaborate with your team',
     },
     {
       id: '2',
-      icon: '/images/detail-3.png',
+      icon: Detail3,
       title: 'Ultra fast cloud-engine',
     },
     {
       id: '3',
-      icon: '/images/detail-4.png',
+      icon: Detail4,
       title: '24 / 7 Customer support',
     },
   ];
@@ -122,8 +127,8 @@ export const features = [
         '5 projects',
         '24/7 support',
       ],
-      icon: '/images/circle.svg',
-      logo: '/images/plan-1.png',
+      icon: Circle,
+      logo: Plan1,
     },
     {
       id: '1',
@@ -137,8 +142,8 @@ export const features = [
         'Unlimited projects',
         'Analytics',
       ],
-      icon: '/images/triangle.svg',
-      logo: '/images/plan-2.png',
+      icon: Triangle,
+      logo: Plan2,
     },
     {
       id: '2',
@@ -152,8 +157,8 @@ export const features = [
         '50% off per member',
         'Real-time collaboration',
       ],
-      icon: '/images/hexagon.svg',
-      logo: '/images/plan-3.png',
+      icon: Hexagon,
+      logo: Plan3,
     },
   ];
   
@@ -162,7 +167,7 @@ export const features = [
       id: '0',
       name: 'Jessica Saunders',
       role: 'Globalnomads',
-      avatarUrl: '/images/testimonials/jessica-saunders.png',
+      avatarUrl: Testimonial1,
       comment:
         "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
     },
@@ -170,7 +175,7 @@ export const features = [
       id: '1',
       name: 'Mark Erixon',
       role: 'Vid capital intl',
-      avatarUrl: '/images/testimonials/mark-erixon.png',
+      avatarUrl: Testimonial2,
       comment:
         "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
     },
@@ -178,7 +183,7 @@ export const features = [
       id: '2',
       name: 'Melanie Hurst',
       role: 'Cyberleap',
-      avatarUrl: '/images/testimonials/melanie-hurst.png',
+      avatarUrl: Testimonial3,
       comment:
         "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
     },
@@ -186,7 +191,7 @@ export const features = [
       id: '3',
       name: 'Alicia Barker',
       role: 'Cyberleap',
-      avatarUrl: '/images/testimonials/alicia-barker.png',
+      avatarUrl: Testimonial4,
       comment:
         "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
     },
@@ -194,7 +199,7 @@ export const features = [
       id: '4',
       name: 'Becky Snider',
       role: 'Floclips',
-      avatarUrl: '/images/testimonials/becky-snider.png',
+      avatarUrl: Testimonial5,
       comment:
         "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
     },
@@ -202,7 +207,7 @@ export const features = [
       id: '5',
       name: 'Jim Bradley',
       role: 'Vid capital intl',
-      avatarUrl: '/images/testimonials/jim-bradley.png',
+      avatarUrl: Testimonial6,
       comment:
         'The efficiency boost is undeniable. This platform has transformed our workflow, forever.',
     },
@@ -212,35 +217,35 @@ export const features = [
     {
       id: '0',
       title: 'Afterpay',
-      url: '/images/logos/afterpay.svg',
+      url: AfterPay,
       width: 156,
       height: 48,
     },
     {
       id: '1',
       title: 'Amplitude',
-      url: '/images/logos/amplitude.svg',
+      url: Amplitude,
       width: 194,
       height: 48,
     },
     {
       id: '2',
       title: 'Sonos',
-      url: '/images/logos/sonos.svg',
+      url: Sonos,
       width: 115,
       height: 48,
     },
     {
       id: '3',
       title: 'Maze',
-      url: '/images/logos/maze.svg',
+      url: Maze,
       width: 142,
       height: 48,
     },
     {
       id: '4',
       title: 'Drips',
-      url: '/images/logos/drips.svg',
+      url: Drips,
       width: 77,
       height: 48,
     },
@@ -405,25 +410,25 @@ export const features = [
     {
       id: '0',
       title: 'x',
-      icon: '/images/socials/x.svg',
+      icon: X,
       url: '#',
     },
     {
       id: '1',
       title: 'Threads',
-      icon: '/images/socials/threads.svg',
+      icon: Threads,
       url: '#',
     },
     {
       id: '2',
       title: 'Instagram',
-      icon: '/images/socials/instagram.svg',
+      icon: Instagram,
       url: '#',
     },
     {
       id: '3',
       title: 'Discord',
-      icon: '/images/socials/discord.svg',
+      icon: Discord,
       url: '#',
     },
   ];

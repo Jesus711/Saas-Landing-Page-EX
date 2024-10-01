@@ -4,6 +4,7 @@ import { Element } from "react-scroll";
 import { plans } from "../constants";
 import CountUp from "react-countup";
 import Button from "./Button";
+import { BGOutlines, BGOutlinesFill, Check } from "../assets";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
@@ -39,14 +40,14 @@ const Pricing = () => {
 
             <div className="pricing-bg">
               <img
-                src="/images/bg-outlines.svg"
+                src={BGOutlines}
                 alt="outline"
                 width={960}
                 height={380}
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src={BGOutlinesFill}
                 alt="outline"
                 width={960}
                 height={380}
@@ -87,7 +88,7 @@ const Pricing = () => {
                     <ul className="mx-auto space-y-4 xl:px-7">
                         {plan.features.map(feature => (
                             <li key={feature} className="relative flex items-center gap-5" >
-                                <img src={"/images/check.png"} alt="check" className="size-10 object-contain"/>
+                                <img src={Check} alt="check" className="size-10 object-contain"/>
                                 <p className="flex-1">{feature}</p>
                             </li>
                         ))}
