@@ -1,6 +1,5 @@
 import clsx from "clsx";
-import React, { Children, ReactNode } from "react";
-import { Link as LinkScroll } from "react-scroll";
+import { ReactNode } from "react";
 import Marker from "./Marker";
 
 interface ButtonProps {

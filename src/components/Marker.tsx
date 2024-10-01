@@ -1,7 +1,3 @@
-interface MarkerProps {
-    fill?: string
-}
-
 
 const Marker = ({ fill }: {fill?: string}) => {
     return (
