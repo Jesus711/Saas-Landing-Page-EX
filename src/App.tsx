@@ -1,4 +1,4 @@
-
+import Features from './components/Features'
 import Header from './components/Header'
 import Hero from './components/Hero'
 
@@ -7,6 +7,7 @@ const App = () => {
     <main className='overflow-hidden'>
       <Header />
       <Hero />
+      <Features />
     </main>
   )
 }
